@@ -1,5 +1,5 @@
 <p align="center">
-<img src="baba-marta.jpeg" width="300" alt="Grandma March">
+<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/cjm9qalxsioqgbfpvrsl?_a=BATAUVAA0" width="300" alt="Grandma March">
 <br/>
 
 # Contest Details
@@ -10,8 +10,8 @@
 - Medium - 20xp
 - Low - 2xp
 
-- Starts: 
-- Ends: 
+- Starts: April 11, 2024 Noon UTC
+- Ends: April 18, 2024 Noon UTC
 
 ### Stats
 
@@ -90,6 +90,11 @@ HealthToken is an ERC-20 token with additional functionality. The primary purpos
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [foundry](https://getfoundry.sh/)
   - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
+
+```
+git clone https://github.com/Cyfrin/2024-04-Baba-Marta
+cd 2024-04-Baba-Marta
+```
 
 # Usage
 
