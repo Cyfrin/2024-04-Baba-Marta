@@ -1,6 +1,6 @@
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/cjm9qalxsioqgbfpvrsl?_a=BATAUVAA0" width="300" alt="Grandma March">
-<br/>
+# First Flight #13: Baba Marta
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -82,6 +82,16 @@ HealthToken is an ERC-20 token with additional functionality. The primary purpos
 - `setMarketAndVotingAddress`: Allows the owner to set the addresses of the `MartenitsaMarketplace` and `MartenitsaVoting` contracts.
 - `distributeHealthToken`: Allows the marketplace and voting contracts to distribute `HealthTokens` as rewards to specified addresses.
 
+## Roles
+
+Producer - Should be able to create martenitsa and sell it. The producer can also buy martenitsa, make present and participate in vote. The martenitsa of producer can be candidate for the winner of voting.
+
+User - Should be able to buy martenitsa and make a present to someone else. The user can collect martenitsa tokens and for every 3 different martenitsa tokens will receive 1 health token. The user is also able to participate in a special event and to vote for one of the producer's martenitsa.
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
+
 # Getting Started
 
 ## Requirements
@@ -116,6 +126,10 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 # Audit Scope Details
 - In Scope:
 
@@ -136,13 +150,12 @@ forge coverage --report debug
 - Chain(s) to deploy contract to:
   - Ethereum
 
-# Roles
+[//]: # (scope-close)
 
-Producer - Should be able to create martenitsa and sell it. The producer can also buy martenitsa, make present and participate in vote. The martenitsa of producer can be candidate for the winner of voting.
-
-User - Should be able to buy martenitsa and make a present to someone else. The user can collect martenitsa tokens and for every 3 different martenitsa tokens will receive 1 health token. The user is also able to participate in a special event and to vote for one of the producer's martenitsa.
+[//]: # (known-issues-open)
 
 # Known Issues
 
 None
 
+[//]: # (known-issues-close)
