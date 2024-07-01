@@ -1,7 +1,5 @@
 # First Flight #13: Baba Marta
 
-[//]: # (contest-details-open)
-
 # Contest Details
 
 ### Prize Pool
@@ -18,7 +16,7 @@
 - nSLOC: 239
 - Complexity Score: 202
 
-# Baba Marta
+[//]: # (contest-details-open)
 
 ## Disclaimer
 
